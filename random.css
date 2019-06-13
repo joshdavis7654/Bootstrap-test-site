@@ -1,0 +1,228 @@
+
+.container{
+	
+}
+
+.jumbotron{
+
+	text-align: center;
+	
+	color: #f7f9f9; 
+	background-color:  #211f1f;
+	/*background-image: url("black-header.jpg");*/
+
+}
+
+
+/*Paragrah underath image in jumbotron*/
+#jumbo-p{
+
+	margin-top: 30px;
+}
+
+/*Header above image in jumbotron*/
+#jumbo-header{
+
+margin-bottom: 15px;
+
+}
+
+/*Image in jumbotron*/
+.img-responsive{
+	margin:0 auto;
+
+}
+
+
+
+/*Actual slideshow*/
+#myCarousel{
+
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	
+}
+
+
+body{
+	background-color:  #f7f9f9   ;
+}
+
+
+.navbar{
+	
+	padding:7px;
+	
+	font-size:19px !important;
+
+	background-color:  #1A2930 ;
+	border-style: solid;
+	border-width: 2px;
+	
+	
+	opacity: 1;
+	margin-top: -46px
+
+
+}
+
+/*The list of items on the right side of the navbar*/
+.nav.navbar-nav.navbar-right li a {
+    margin-right: 10px;
+    color: #f7f9f9;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    background-color:#f7f9f9; 
+    color: #1A2930;
+
+}
+
+
+.navbar-brand{
+
+font-size:22px;
+margin-left: 22px;
+margin-top:-12px;
+
+}
+
+
+
+
+
+
+#slider-back{
+	background-color: #211f1f ;
+	margin-top:-21px;
+	padding:40px;
+
+
+}
+
+/*text to the left of the slide show*/
+#p-left-slide{
+	margin-top: 20px;
+	font-size: 23px;
+	font-family: 'Ubuntu', sans-serif;
+	color:#f7f9f9;
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+/* Container left of slide show */
+#left-text{
+
+	background-color: #1A2930;
+	padding-bottom: 0px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	padding-bottom: 25px;
+	padding-top:10px;
+
+}
+
+#col-bot-1{
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	font-size: 25.5px;
+	font-family: 'Ubuntu', sans-serif;
+	color:#f7f9f9;
+	background-color: #1A2930;
+	margin: 0 auto;
+
+
+}
+
+
+#bot-home{
+	font-size:45px;
+	margin-top: 20px;
+	color: #00ffff;
+}
+
+#bot-money{
+	font-size:45px;
+	margin-top: 20px;
+	color: #00ffff;
+}
+
+#test1{
+	
+	
+	padding: 30px;
+	
+
+
+}
+
+
+#bottom-header-1{
+
+	margin-bottom: 35px;
+
+}
+
+footer{
+
+	padding:60px;
+	background-color: #211f1f;
+
+}
+
+#right-footer{
+	color:#f7f9f9;
+	float:left;
+	
+}
+
+#right-footer-2{
+	color:#f7f9f9;
+	float:right;
+	
+	
+}
+
+li{
+	list-style-type: none;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(30%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+

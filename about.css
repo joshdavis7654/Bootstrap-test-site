@@ -1,0 +1,150 @@
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(30%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+
+body{
+    background-color:  #f7f9f9   ;
+}
+
+
+.navbar{
+    
+    padding:7px;
+    
+    font-size:19px !important;
+
+    background-color:  #1A2930 ;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 10px;
+    opacity: 1;
+    
+
+
+}
+
+/*The list of items on the right side of the navbar*/
+.nav.navbar-nav.navbar-right li a {
+    margin-right: 10px;
+    color: #f7f9f9;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    background-color:#f7f9f9; 
+    color: #1A2930;
+
+}
+
+
+.navbar-brand{
+
+font-size:22px;
+margin-left: 22px;
+margin-top:-12px;
+
+}
+
+
+.page-header{
+    border-bottom-color: black;
+    border-bottom-width: 5px; 
+    border-top-color: black;
+    background-color: #211f1f;
+    color:#f7f9f9;
+    padding:50px;
+    margin-top:-21px;
+    
+    
+
+}
+
+#about-header{
+    font-size: 40px;
+}
+
+#about-me-container{
+    margin-top: -24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #1A2930;
+    padding:20px;
+}
+
+#about-header-2{
+    text-align: center;
+    color: #f7f9f9;
+}
+
+#about-me-para{
+    color: #f7f9f9;
+    text-align: center;
+    font-size: 25px;
+    
+    padding: 25px;
+
+}
+
+
+
+
+footer{
+    /*margin-top: 1px;*/
+    padding:60px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: #211f1f;
+
+}
+
+#right-footer{
+    color:#f7f9f9;
+    float:left;
+    
+}
+
+#right-footer-2{
+    color:#f7f9f9;
+    float:right;
+    
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.img-center {margin:0 auto;}

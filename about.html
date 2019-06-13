@@ -1,0 +1,112 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+	<title>About me</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="about.css" type="text/css">
+
+  		<script>
+		<script>
+		$(document).ready(function(){
+    	$('[data-toggle="popover"]').popover();
+		});
+
+
+		$(window).scroll(function() {
+  			$(".slideanim").each(function(){
+    			var pos = $(this).offset().top;
+
+    			var winTop = $(window).scrollTop();
+    			if (pos < winTop + 900) {
+      				$(this).addClass("slide");
+    			}
+  			});
+		}); 
+
+		</script>
+
+
+</head>
+
+
+
+<body>
+
+<!--Navagation bar-->
+	<div class="container">
+		<nav class="navbar navbar-inverse ">
+  		
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="random.html" data-toggle="popover" data-trigger="hover" data-placement="left" title="Hello there!" data-content="I am a penguin"><img id="pen-icon" src="penguin-icon-2.png" alt="Penguin"></a>
+    		</div>
+    		<ul class="nav navbar-nav navbar-right">
+      			<li><a href="random.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      			<li><a href="about.html"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+      			<li><a href="#"><span class="glyphicon glyphicon-phone"></span> Contact</a></li>
+      			<li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Email</a></li>
+    		</ul>
+ 		
+		</nav>
+	</div>
+
+<div class="container">
+	<div class="page-header" style="text-align: center;">
+  		<h1 id="about-header">About Me</h1>
+	</div>
+</div>
+
+
+<!--About me container-->
+<div class="container">
+
+	<div id="about-me-container" >
+	
+		<div class="row">
+		
+			<div class="col-xl-5 col-lg-5">
+				<h2 id="about-header-2">This is not actually me</h2>
+				<img src="person-1.jpg" class="img-responsive img-center" alt="Me" style="padding:10px;">
+			</div>
+
+			<div class="col-xl-7 col-lg-7">
+				<p id="about-me-para">Hello, This is me ighdg sd ei gesg esig esg hesigo esg hesig oesg hesigo esg hesiog esg hiesog esgh eisog esg hesigo esg hesig esg hesig oesg ihesg eisog hesge
+				s geshg iesgo esig ehg eisgoesg ieshg esg iesog esig es gesg esjhg esgiesog esg ]
+				esg eusjg egesg9i esog esgi es0ogesgies g<br> hbguyieshge sse gehsg esgh esg esg hesg esioug esgh esugoiesg es gih ekfnoedsf gesa tgikesg esikgn esg eskgn esg esoikg ne This is me ighdg sd ei gesg esig esg hesigo esg hesig oesg hesigo esg hesiog esg hiesog esgh eisog esg hesigo esg hesig esg hesig oesg ihesg eisog hesge
+				s geshg iesgo esig ehg eisgoesg ieshg esg iesog esig es gesg esjhg esgiesog esg ]
+				esg eusjg egesg9i esog esgi es0ogesgies sg eskgn esuseog</p>
+			</div>
+
+		</div>
+
+	</div>	
+
+</div>
+
+
+<!--Footer-->
+<div class="container">
+		
+		<footer>
+		<ul>
+			<li id="right-footer">
+			<p style="font-size: 20px; color:#f7f9f9;"><i>This is a test site</i></p>
+			</li>
+			<li id="right-footer-2">
+				<p ><i>@COPYRIGHT JOSH DAVIS</i></p>
+			</li>
+		</ul>
+	</footer>
+	</div>
+
+</body>
+</html>
